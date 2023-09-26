@@ -11,9 +11,12 @@ public class PersonApp {
         System.out.println(person1.addres);
         System.out.println(person1.country);
 
+        person1.sayHelli("budi");
         Person person2 = new Person();
         Person person3;
         person3 = new Person();
+        person3.name = "joko";
+        person3.sayHelli("budi");
 
 
     }
